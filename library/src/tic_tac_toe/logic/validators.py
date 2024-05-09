@@ -50,6 +50,7 @@ def validate_winner(
         else:
             if grid.o_count != grid.x_count:
                 raise InvalidGameState("Wrong number of Os")
+
 def validate_players(player1: Player, player2: Player) -> None:
     if player1.mark is player2.mark:
         raise ValueError("Players must use different marks")
