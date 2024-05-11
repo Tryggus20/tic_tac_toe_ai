@@ -1,8 +1,5 @@
-# tic_tac_toe/game/engine.py
-
 from dataclasses import dataclass
 from typing import Callable, TypeAlias
-
 
 from tic_tac_toe.game.players import Player
 from tic_tac_toe.game.renderers import Renderer
